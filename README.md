@@ -61,7 +61,20 @@ Whether you want to securely store documents, photos, music, or any file type �
 
 ## 📱 Screenshots
 
-> *Coming soon — screenshots of TeleDrive file manager, music player, app lock, and CloudGram branding.*
+<div align="center">
+<table>
+  <tr>
+    <td align="center"><b>Home — All Files</b></td>
+    <td align="center"><b>Files — Browser</b></td>
+    <td align="center"><b>Settings</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/home_screen.jpg" width="250" /></td>
+    <td><img src="screenshots/files_screen.jpg" width="250" /></td>
+    <td><img src="screenshots/settings_screen.jpg" width="250" /></td>
+  </tr>
+</table>
+</div>
 
 ---
 
