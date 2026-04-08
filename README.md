@@ -113,7 +113,7 @@ CloudGram
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YourUsername/CloudGram.git
+   git clone https://github.com/Hq3010/CloudGram.git
    cd CloudGram
    ```
 
