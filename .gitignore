@@ -1,0 +1,36 @@
+.idea/
+.gradle/
+build/
+obj/
+*.iml
+local.properties
+TMessagesProj/.cxx/
+TMessagesProj/jniLibs/
+TMessagesProj/jniRes/
+**/.DS_Store
+TMessagesProj/afat/
+TMessagesProj_App/afat/
+TMessagesProj_AppHockeyApp/afat/
+TMessagesProj_AppStandalone/afat/
+TMessagesProj_AppHuawei/afat/
+
+# Secrets & credentials (do NOT commit real values)
+*.keystore
+*.jks
+google-services.json
+
+# Build artifacts
+build_log.txt
+build_out.txt
+build_err.txt
+*.apk
+*.aab
+
+# IDE
+*.swp
+*~
+.vscode/
+
+# OS
+Thumbs.db
+Desktop.ini

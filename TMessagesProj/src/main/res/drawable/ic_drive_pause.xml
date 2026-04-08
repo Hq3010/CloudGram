@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Pause icon — two rounded vertical bars.
+    Designed for a 24×24dp canvas (Material-style).
+    Left bar:  x=5..9,  y=4..20
+    Right bar: x=15..19, y=4..20
+    Rounded ends (rx/ry = 2) give a softer look.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Left bar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M7,4
+            Q5,4 5,6
+            L5,18
+            Q5,20 7,20
+            L9,20
+            Q11,20 11,18
+            L11,6
+            Q11,4 9,4
+            Z" />
+
+    <!-- Right bar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M15,4
+            Q13,4 13,6
+            L13,18
+            Q13,20 15,20
+            L17,20
+            Q19,20 19,18
+            L19,6
+            Q19,4 17,4
+            Z" />
+
+</vector>

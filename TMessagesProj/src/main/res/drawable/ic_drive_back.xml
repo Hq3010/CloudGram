@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Back / up arrow — left-pointing chevron for the ActionBar back button.
+    24×24dp viewport, white fill to match the ActionBar icon style.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!--
+        A simple left-pointing arrow:
+          Start at the right-centre (19, 12)
+          Arrow-head leg up-left  → (7, 4)
+          Back to the shaft tip   → (7, 12)   (this is also the elbow)
+          Arrow-head leg down-left→ (7, 20)
+          Shaft: horizontal line  → (19, 12) (close)
+
+        Drawn as a filled chevron (no shaft) for a clean modern look.
+        Path: M19,12  L7,4  L7,20  Z
+    -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M19,12 L7,4 L7,20 Z" />
+
+</vector>

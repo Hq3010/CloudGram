@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Play icon — right-pointing filled triangle.
+    Designed for a 24×24dp canvas (Material-style).
+    Shift the triangle right by 1dp (x starts at 9) for optical centring
+    inside a round button where the eye expects the point to be centred.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!--
+        Vertices: top-left (9, 4), bottom-left (9, 20), right-tip (20, 12).
+        The slight right-shift (9 instead of 8) compensates for the visual
+        asymmetry of a triangle inside a circle.
+    -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M9,4 L20,12 L9,20 Z" />
+
+</vector>

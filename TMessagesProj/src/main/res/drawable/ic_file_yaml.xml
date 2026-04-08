@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Line 1 (key: value) -->
+    <path android:fillColor="#FFFFFF" android:pathData="M3,6 L14,6 L14,8 L3,8 Z"/>
+    <!-- Line 2 (indented child) -->
+    <path android:fillColor="#FFFFFF" android:pathData="M6,10 L21,10 L21,12 L6,12 Z"/>
+    <!-- Line 3 (indented child) -->
+    <path android:fillColor="#FFFFFF" android:pathData="M6,14 L18,14 L18,16 L6,16 Z"/>
+    <!-- Line 4 (back to root) -->
+    <path android:fillColor="#FFFFFF" android:pathData="M3,18 L12,18 L12,20 L3,20 Z"/>
+</vector>
